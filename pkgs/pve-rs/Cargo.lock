@@ -1272,7 +1272,7 @@ dependencies = [
 [[package]]
 name = "proxmox-resource-scheduling"
 version = "0.3.0"
-source = "git+https://github.com/proxmox/proxmox-resource-scheduling.git#09c43554fa4e211504319107997b8c5eaba270ec"
+source = "git+https://git.lierfang.com/proxmox/proxmox-resource-scheduling.git#09c43554fa4e211504319107997b8c5eaba270ec"
 dependencies = [
  "anyhow",
  "lazy_static",

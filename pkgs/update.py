@@ -118,7 +118,7 @@ def main():
                             f'toml set Cargo.toml dependencies.{dep}.git https://github.com/proxmox/perlmod-rs.git > Cargo.toml.tmp && mv Cargo.toml.tmp Cargo.toml')
                     elif dep == 'proxmox-resource-scheduling':
                         run_command(
-                            f'toml set Cargo.toml dependencies.{dep}.git https://github.com/proxmox/proxmox-resource-scheduling.git > Cargo.toml.tmp && mv Cargo.toml.tmp Cargo.toml')
+                            f'toml set Cargo.toml dependencies.{dep}.git https://git.lierfang.com/proxmox/proxmox-resource-scheduling.git > Cargo.toml.tmp && mv Cargo.toml.tmp Cargo.toml')
                     elif dep.startswith('proxmox-'):
                         run_command(
                             f'toml set Cargo.toml dependencies.{dep}.git https://github.com/proxmox/proxmox-rs.git > Cargo.toml.tmp && mv Cargo.toml.tmp Cargo.toml')

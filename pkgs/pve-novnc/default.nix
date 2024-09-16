@@ -6,7 +6,7 @@
 
 novnc.overrideAttrs (old: rec {
   src_patches = fetchgit {
-    url = "https://github.com/proxmox/novnc-pve.git";
+    url = "https://git.lierfang.com/proxmox/novnc-pve.git";
     hash = "sha256-BQm4hDC7b+YaFipVonzcwVG/4JswkMSFZEpVkCdfrjM=";
   };
 

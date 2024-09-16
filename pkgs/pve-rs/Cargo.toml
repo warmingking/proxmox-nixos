@@ -42,7 +42,7 @@ git = "https://github.com/proxmox/proxmox-rs.git"
 git = "https://github.com/proxmox/proxmox-rs.git"
 
 [dependencies.proxmox-resource-scheduling ]
-git = "https://github.com/proxmox/proxmox-resource-scheduling.git"
+git = "https://git.lierfang.com/proxmox/proxmox-resource-scheduling.git"
 
 [dependencies.proxmox-openid ]
 git = "https://github.com/proxmox/proxmox-rs.git"
