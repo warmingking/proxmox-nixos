@@ -16,7 +16,7 @@ stdenv.mkDerivation rec {
   version = "1.8.0";
 
   src = fetchgit {
-    url = "https://git.proxmox.com/git/vncterm.git";
+    url = "https://github.com/proxmox/vncterm.git";
     rev = "6ceee68be1ffb58db99b2027bd6d7cb408b4cabc";
     hash = "sha256-HD6d6uEzG5u0EgrcmHg5N/mxofG0i1ZwpOB5E1G3In0=";
   };

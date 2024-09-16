@@ -9,7 +9,7 @@ rustPlatform.buildRustPackage rec {
   version = "1.0.1";
 
   src = fetchgit {
-    url = "https://git.proxmox.com/git/pve-xtermjs.git";
+    url = "https://github.com/proxmox/pve-xtermjs.git";
     rev = "e2e62fc67368ad25a35c6d009f9d85ac5ef97233";
     hash = "sha256-Inx3LnAelDwvRoLHqMG91lUuQUI/CvNVIZ/EfmeIFUM=";
   };

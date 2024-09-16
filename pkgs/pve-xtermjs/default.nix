@@ -9,7 +9,7 @@ stdenv.mkDerivation rec {
   version = "5.3.0-3";
 
   src = fetchgit {
-    url = "https://git.proxmox.com/git/pve-xtermjs.git";
+    url = "https://github.com/proxmox/pve-xtermjs.git";
     rev = "9e209b042bad4f3cf524654c1484ec8061a9edfb";
     hash = "sha256-Ifnv0sYC9nNHuHPpXwTn+2vKSFHpnFn1Gwc59s5kzOE=";
   };

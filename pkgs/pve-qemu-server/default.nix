@@ -54,7 +54,7 @@ perl536.pkgs.toPerlModule (
     version = "8.2.1";
 
     src = fetchgit {
-      url = "https://git.proxmox.com/git/qemu-server.git";
+      url = "https://github.com/proxmox/qemu-server.git";
       rev = "54aa98cea5071b5cd325cfaeb21b7aaa4af9bb4d";
       hash = "sha256-KjMkOTYrrXBB2HP9bXVJjDlBi86REe3lc8nEnUjZdls=";
     };

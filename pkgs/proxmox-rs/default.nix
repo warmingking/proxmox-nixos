@@ -16,7 +16,7 @@ craneLib.buildPackage rec {
   version = "2024-06-13";
 
   src = fetchgit {
-    url = "https://git.proxmox.com/git/proxmox.git";
+    url = "https://github.com/proxmox/proxmox-rs.git";
     rev = "b25edb67de09ab22e33ba4db8d445f1e3c8ebab7";
     hash = "sha256-2ND/qP5hDDTov/JwbnVjBH1uAT3EpecerVm24W+1M94=";
   };

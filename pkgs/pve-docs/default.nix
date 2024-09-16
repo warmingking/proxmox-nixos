@@ -19,7 +19,7 @@ stdenv.mkDerivation rec {
   version = "8.2.2";
 
   src = fetchgit {
-    url = "https://git.proxmox.com/git/${pname}.git";
+    url = "https://github.com/proxmox/${pname}.git";
     rev = "73c340dea7fdfff7d9bdb42fde29c8c02e2b67a4";
     hash = "sha256-E7m+Olvy4NmOdklC+hRu2NsR+byxToDO4SdJ42lkocY=";
   };

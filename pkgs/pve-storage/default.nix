@@ -49,7 +49,7 @@ perl536.pkgs.toPerlModule (
     version = "8.2.3";
 
     src = fetchgit {
-      url = "https://git.proxmox.com/git/${pname}.git";
+      url = "https://github.com/proxmox/${pname}.git";
       rev = "13a81873ba22f37ecc0613de3f3ef994b064e3b9";
       hash = "sha256-5svyUnjqejtuK+skNwg0C8wGKClbh0WSwB/khN9I/c0=";
     };

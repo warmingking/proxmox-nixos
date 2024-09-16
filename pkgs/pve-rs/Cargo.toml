@@ -27,28 +27,28 @@ serde = "1.0"
 serde_bytes = "0.11"
 serde_json = "1.0"
 url = "2"
-perlmod = { version = "0.13", features = [ "exporter" ] , git = "https://git.proxmox.com/git/perlmod.git" }
-proxmox-http = { version = "0.9", features = ["client-sync", "client-trait"] , git = "https://git.proxmox.com/git/proxmox.git" }
-proxmox-notify = { version = "0.4", features = ["pve-context"] , git = "https://git.proxmox.com/git/proxmox.git" }
-proxmox-tfa = { version = "4.0.4", features = ["api"] , git = "https://git.proxmox.com/git/proxmox.git" }
+perlmod = { version = "0.13", features = [ "exporter" ] , git = "https://github.com/proxmox/perlmod-rs.git" }
+proxmox-http = { version = "0.9", features = ["client-sync", "client-trait"] , git = "https://github.com/proxmox/proxmox-rs.git" }
+proxmox-notify = { version = "0.4", features = ["pve-context"] , git = "https://github.com/proxmox/proxmox-rs.git" }
+proxmox-tfa = { version = "4.0.4", features = ["api"] , git = "https://github.com/proxmox/proxmox-rs.git" }
 
 [dependencies.proxmox-time ]
-git = "https://git.proxmox.com/git/proxmox.git"
+git = "https://github.com/proxmox/proxmox-rs.git"
 
 [dependencies.proxmox-sys ]
-git = "https://git.proxmox.com/git/proxmox.git"
+git = "https://github.com/proxmox/proxmox-rs.git"
 
 [dependencies.proxmox-subscription ]
-git = "https://git.proxmox.com/git/proxmox.git"
+git = "https://github.com/proxmox/proxmox-rs.git"
 
 [dependencies.proxmox-resource-scheduling ]
-git = "https://git.proxmox.com/git/proxmox-resource-scheduling.git"
+git = "https://github.com/proxmox/proxmox-resource-scheduling.git"
 
 [dependencies.proxmox-openid ]
-git = "https://git.proxmox.com/git/proxmox.git"
+git = "https://github.com/proxmox/proxmox-rs.git"
 
 [dependencies.proxmox-http-error ]
-git = "https://git.proxmox.com/git/proxmox.git"
+git = "https://github.com/proxmox/proxmox-rs.git"
 
 [dependencies.proxmox-apt ]
-git = "https://git.proxmox.com/git/proxmox.git"
+git = "https://github.com/proxmox/proxmox-rs.git"

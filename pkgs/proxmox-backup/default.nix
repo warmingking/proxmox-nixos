@@ -24,7 +24,7 @@ craneLib.buildPackage {
   version = "2024-06-13";
 
   src = fetchgit {
-    url = "https://git.proxmox.com/git/proxmox-backup.git";
+    url = "https://github.com/proxmox/proxmox-backup.git";
     rev = "dbc9d2c223df6f75b4b0dec7223a88e972929336";
     hash = "sha256-BRHwE6xC4T7N+mFKSH+ft/7fyC+674afyBYEbnpGTbQ=";
   };

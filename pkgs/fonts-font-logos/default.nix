@@ -9,7 +9,7 @@ stdenv.mkDerivation rec {
   version = "1.0.1-3";
 
   src = fetchgit {
-    url = "https://git.proxmox.com/git/fonts-font-logos.git";
+    url = "https://github.com/proxmox/fonts-font-logos.git";
     rev = "063091d1a7ea70eba36c5684d20428ba215cb769";
     hash = "sha256-eSlnOqbXFLLlomFCb6IWdgzHAqqHn4sSTG5rEC4Tasg=";
   };
